@@ -1,13 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Tables and Forms</title>
-  </head>
-  <body>
-    <main>
-      <!-- Complete the Exercises HERE -->
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Tables and Forms</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <main>
+    <!-- Complete the Exercises HERE -->
+    <table>
+      <caption>Soda Nutrional Facts</caption>
+      <thead>
+        <tr> <br>
+          <th> Drinks </th>
+          <hl>
+            <th> Total servings</th>
+            <th> Serving size</th>
+            <th> Calories per serving</th>
+            <th> Carbs per serving</th>
+            <th> Sugars per serving</th>
+            <th> Sodium per serving</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Coca Cola</td> <!--Soda Brand-->
+          <td>12 Cans</td> <!--Total Servings-->
+          <td>1 Can</td><!--Serving Size-->
+          <td>140</td><!--Calories per Serving-->
+          <td>99g</td><!--Carbs per Serving-->
+          <td>25g</td><!--Sugars per Serving-->
+          <td>25mg</td><!--Sodium per Serving-->
+        </tr>
+        <tr>
+          <td>Pepsi</td><!--Soda Brand-->
+          <td>12 Cans</td><!--Total Servings-->
+          <td>1 can</td><!--Serving Size-->
+          <td>150</td><!--Calories per Serving-->
+          <td>41g</td><!--Carbs per Serving-->
+          <td>41g</td><!--Sugars per Serving-->
+          <td>30mg</td><!--Sodium per Serving-->
+        </tr>
+        <tr>
+          <td>Coke Zero</td><!--Soda Brand-->
+          <td>12 Cans</td><!--Total Servings-->
+          <td>1 Can</td><!--Serving Size-->
+          <td>0</td><!--Calories per Serving-->
+          <td>0g</td><!--Carbs per Serving-->
+          <td></td><!--Sugars per Serving-->
+          <td></td><!--Sodium per Serving-->
+        </tr>
+        <tr>
+          <td>Dr.Pepper</td><!--Soda Brand-->
+          <td>12 Cans</td><!--Total Servings-->
+          <td>1 Can</td><!--Serving Size-->
+          <td>150</td><!--Calories per Serving-->
+          <td>11.75g</td><!--Carbs per Serving-->
+          <td>40g</td><!--Sugars per Serving-->
+          <td>55mg</td><!--Sodium per Serving-->
+        </tr>
+        <tr>
+          <td>Mountain Dew</td><!--Soda Brand-->
+          <td>12 Cans</td><!--Total Servings-->
+          <td>1 Can</td><!--Serving Size-->
+          <td>174</td><!--Calories per Serving-->
+          <td>46g</td><!--Carbs per Serving-->
+          <td>45.8g</td><!--Sugars per Serving-->
+          <td>63.8mg</td><!--Sodium per Serving-->
+        </tr>
+      </tbody>
+    </table>
+    <hr><br>
+    <form>
+      <label for="Drinks">Drink</label>
+      <input type="text" id="drink" name="Drink">
+
+      <input for="total">Total</label>
+      <input type="text" id="total" name="Total">
+
+      <input for="serving">Serving</label>
+      <input type=text" id="serving" name="Serving">
+
+      <input for="carbs">Carbs</label>
+      <input type="text" id="carbs" name="Carbs">
+
+      <input for="calories">Calories</label>
+      <input type="text" id="calories" name="Calories">
+
+      <input for="sodium">Sodium</label>
+      <input type="text" id="sodium" name="Sodium">
+
+      <button> type="submit>Submit</button>
+    </form>
+  </main>
+</body>
+
 </html>
